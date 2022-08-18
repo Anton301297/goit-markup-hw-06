@@ -61,6 +61,14 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+}
+.close-btn .close-icon {
+	fill: #212121;
+}
+.close-btn:hover .close-icon,
+.close-btn:focus .close-icon {
+	fill: var(--accent-color);
 }
 .modal-title {
 	font-style: normal;
@@ -182,6 +190,12 @@ body {
 	display: flex;
 	justify-items: baseline;
 	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 .navigation-link {
 	color: var(--title-text-color);
